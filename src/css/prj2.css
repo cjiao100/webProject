@@ -1,0 +1,18 @@
+.content{
+  border: 1px solid lightgreen;
+  width: 400px;
+}
+.content p, .content h2{
+  margin: 0;
+}
+.title{
+  background-color: #ebebeb;
+}
+.list-title{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.list-body{
+  color: #4131ff;
+}
