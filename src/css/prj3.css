@@ -1,0 +1,25 @@
+.content{
+  background-image: url(../img/prj_image2_2.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  width: 400px;
+  height: 600px;
+  padding-top: 1px;
+}
+.list-content{
+  font-weight: bold;
+  font-size: small;
+  padding: 0 20px 0 30px;
+  text-align: center;
+}
+.content h4{
+  text-align: center;
+}
+.content span{
+  background-color: #9999ff;
+  padding: 5px;
+}
+.footer{
+  text-align: right;
+}
