@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #237ab2;
+}
+#container{
+  margin: 0 auto;
+  width: 80%;
+
+}
+/************************************************/
+#banner{
+  width: 100%;
+  height: 300px;
+  background: #4131ff url(../img/web2/banner.jpg) 0 0 repeat;
+  background-size: 100% 300px;
+}
+/************************************************/
+#globlink{
+  width: 100%;
+  height: 50px;
+  background: #d1e4ea;
+}
+#globlink a{
+  color: #446575;
+}
+#globlink ul{
+  list-style: none;
+  margin: 0;
+  line-height: 50px;
+}
+#globlink ul li{
+  margin: 0 45px;
+  float: left;
+}
+/************************************************/
+#left{
+  float: left;
+  width: 14%;
+  /*display: inline-block;*/
+  padding: 3px;
+  background: white;
+}
+#left #weather{
+  width: 100%;
+  background: #4131ff url(../img/web2/weather.jpg) 0 0 no-repeat;
+}
+#left #weather h3{
+  text-align: center;
+  color: white;
+}
+#left #weather > ul{
+  padding-left: 5px;
+  list-style-position: inside;
+}
+#left #today{
+  text-align: center;
+  background-color: #62a3e4;
+  padding-bottom: 120px;
+}
+#left #today h3{
+  color: #27587d;
+  background-color: #bcdcfb;
+  text-align: left;
+}
+#left #today ul{
+  padding: 0 10px;
+  list-style: none;
+}
+#left #today a{
+  text-decoration: none;
+  color: white;
+}
+#left #today img{
+  width: 100%;
+}
+/************************************************/
+#middle{
+  width: 70%;
+  background: #fff;
+  display: inline-block;
+  margin: 0 5px 0;
+  padding: 4px;
+}
+#middle h3{
+  color: #2d4281;
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: 6px 2px 8px #909090;
+}
+#middle #ghost img{
+  width: 100%;
+  height: 400px;
+}
+#middle #beauty ul{
+  list-style: none;
+  display: block;
+}
+#middle #beauty li{
+  float: left;
+  padding: 0 5.1%;
+}
+#middle #beauty img{
+  width: 150px;
+}
+#middle #route{
+  margin: 10px 0 25px;
+}
+#middle #route ul{
+  padding: 0 50px;
+}
+#middle #route li{
+  color: rgb(154, 114, 74);
+  list-style-position: inside;
+}
+#middle #route a{
+  text-decoration: none;
+  color: #597994;
+}
+/************************************************/
+#right {
+  width: 14%;
+  display: inline-block;
+  float: right;
+  background-color: #5da8ec;
+  border: 3px solid white;
+}
+#right h3{
+  color: #27587d;
+  background-color: #bcdcfb;
+  text-align: left;
+}
+#right #map{
+  width: 100%;
+  margin-bottom: 15px;
+}
+#right #map img{
+  border: 3px solid white;
+  width: 90%;
+  margin: 10px;
+}
+#right #food ul, #life ul{
+  list-style: inside;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#right #food li, #life li{
+  color: rgb(154, 114, 74);
+  border-bottom: 1px white dashed;
+  padding: 5px 0;
+}
+#right #food li a, #life li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+/************************************************/
+#footer{
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px;
+  transform: translateX(-5px);
+}
+#footer p{
+  background: #5ea5eb;
+}
